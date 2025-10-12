@@ -17,3 +17,13 @@ are
 clever
 """
 print(it)
+
+print("%s %d"%(it,b))
+name="me%d" %b
+print(name)
+
+num=1.22
+print("%7.1f" % num)
+print("%5d" % num)
+print("%13.7f" % num)
+#注意这边的宽度设定是包含整个数字的，点也算作一位

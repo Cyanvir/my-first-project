@@ -1,6 +1,6 @@
 name=input("Enter your name:") #标准赋值语句，可以直接把要输出的写出来
 print(name)
-print(f"你好，{name}！欢迎学习Python！") #f 格式化字符串字面量
+print(f"你好，{name}！欢迎学习Python！{name}") #f 格式化字符串字面量
 print("你好，%s！欢迎学习Python！"% name)#不同的输出字面量的方法
 print("你好，",name,"!欢迎学习Python！")
 print("你好，"+name+"!欢迎学习Python！")
