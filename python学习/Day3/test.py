@@ -23,7 +23,11 @@ name="me%d" %b
 print(name)
 
 num=1.22
-print("%7.1f" % num)
+#如果要print 不换行
+print("%7.1f" % num, end='')
 print("%5d" % num)
 print("%13.7f" % num)
-#注意这边的宽度设定是包含整个数字的，点也算作一位
+#注意这边的宽度设定是包含整个数字的，点也算作一
+#制表符\t
+print("ni\thao")
+print("xiang\tni")
