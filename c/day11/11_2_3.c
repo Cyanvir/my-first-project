@@ -22,8 +22,6 @@ int main ()
    printf("Average value is: %f\n", avg );
 // 我们传递一个无符号的 long 型指针给函数，并在函数内改变这个值
    unsigned long sec;
-
-
    getSeconds( &sec );
 
    /* 输出实际值 */
